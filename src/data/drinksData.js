@@ -1,22 +1,22 @@
 const drinks = [
   {
     id: 1,
-    name: "Goja",
-    price: "15000",
+    name: "Goja 1 litr",
+    price: "18000",
     description: "Tabiiy vitaminlarga boy, tetiklantiruvchi goja sharbatimiz.",
     image: "/images/goja.jpg",
   },
   {
     id: 2,
-    name: "Ayron",
-    price: "10000",
+    name: "Ayron 1 litr",
+    price: "18000",
     description: "Sovuq va tetiklantiruvchi, sog'liq uchun foydali ayron.",
     image: "/images/ayron.jpg",
   },
   {
     id: 3,
-    name: "Kampot",
-    price: "14000",
+    name: "Moxito(Kompot yalpiz limonli) 1litr",
+    price: "12000",
     description: "Yozgi ichimlik, tabiiy mevalardan tayyorlangan kampot.",
     image: "/images/kampot.jpg",
   },

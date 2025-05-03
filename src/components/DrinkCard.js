@@ -22,12 +22,12 @@ const DrinkCard = ({ drink }) => {
           <button onClick={() => navigate(`/drink/${drink.id}`)}>
             Batafsil
           </button>
-          <button
+          {/* <button
             onClick={() => addToCart(drink)}
             style={{ marginLeft: "10px" }}
           >
             Savatga
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

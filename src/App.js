@@ -9,6 +9,7 @@ import AdminPage from "./pages/AdminPage";
 import AdminLoginPage from "./pages/AdminLoginPage";
 import AdminOrdersPage from "./pages/AdminOrdersPage";
 import MyOrdersPage from "./pages/MyOrdersPage";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/my-orders" element={<MyOrdersPage />} /> {/* 🆕 */}
         {/* 🆕 Checkout sahifasi */}
       </Routes>
+      <Footer />
     </>
   );
 };

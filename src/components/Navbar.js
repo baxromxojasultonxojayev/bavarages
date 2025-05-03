@@ -23,14 +23,14 @@ const Navbar = () => {
         <Link to="/" style={styles.link} onClick={() => setIsOpen(false)}>
           🏠 Bosh sahifa
         </Link>
-        <Link
+        {/* <Link
           to="/checkout"
           style={styles.link}
           onClick={() => setIsOpen(false)}
         >
           ✅ Checkout
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           to="/my-orders"
           style={styles.link}
           onClick={() => setIsOpen(false)}
@@ -46,14 +46,14 @@ const Navbar = () => {
           onClick={() => setIsOpen(false)}
         >
           ✅ Admin Zakazlari
-        </Link>
+        </Link> */}
       </div>
 
       {/* Savat */}
       <div style={styles.cart}>
-        <Link to="/cart" style={styles.link}>
+        {/* <Link to="/cart" style={styles.link}>
           🛒 Savat ({cart.length}) - {totalPrice.toLocaleString()} so'm
-        </Link>
+        </Link> */}
       </div>
     </nav>
   );

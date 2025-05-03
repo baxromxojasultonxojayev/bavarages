@@ -1,11 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { useCart } from "./CartContext";
+// import { useCart } from "./CartContext";
 import "./DrinkCard.scss";
 
 const DrinkCard = ({ drink }) => {
   const navigate = useNavigate();
-  const { addToCart } = useCart();
+  // const { addToCart } = useCart();
 
   return (
     <div className="drink-card">

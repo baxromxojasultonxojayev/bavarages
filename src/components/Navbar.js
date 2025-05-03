@@ -6,10 +6,10 @@ const Navbar = () => {
   const { cart } = useCart();
   const [isOpen, setIsOpen] = useState(false); // 🆕 Hamburger menyu uchun
 
-  const totalPrice = cart.reduce(
-    (sum, item) => sum + Number(item.price || 0),
-    0
-  );
+  // const totalPrice = cart.reduce(
+  //   (sum, item) => sum + Number(item.price || 0),
+  //   0
+  // );
 
   return (
     <nav style={styles.navbar}>

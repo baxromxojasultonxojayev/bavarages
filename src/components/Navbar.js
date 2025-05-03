@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { useCart } from "../components/CartContext";
+// import { useCart } from "../components/CartContext";
 
 const Navbar = () => {
-  const { cart } = useCart();
+  // const { cart } = useCart();
   const [isOpen, setIsOpen] = useState(false); // 🆕 Hamburger menyu uchun
 
   // const totalPrice = cart.reduce(

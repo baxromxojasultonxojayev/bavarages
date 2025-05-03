@@ -5,7 +5,7 @@ const Footer = () => {
     <footer style={styles.footer}>
       <p>
         © {new Date().getFullYear()} Goja Ayron Kampot. Barcha huquqlar
-        himoyalangan.
+        himoyalangan
       </p>
       <div
         style={{
